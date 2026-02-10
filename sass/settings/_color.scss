@@ -1,0 +1,53 @@
+$primary: #ffffff;
+$secondary: #fbfbfd;
+$tertiary: #f5f5fb;
+$quaternary: #e7e7ef;
+$regular: #69698c;
+$strong: #1c1c22;
+$hint: #9d9dbe;
+$primary-contrast: #1c1c22;
+$secondary-contrast: #202028;
+$tertiary-contrast: #262630;
+$quaternary-contrast: #303244;
+$regular-contrast: #9d9dbe;
+$strong-contrast: #ffffff;
+$hint-contrast: #69698c;
+$accent: #1e90ff;
+$accent-hover: #097bea;
+$accent-bg: #deefff;
+$accent-text: #0671d9;
+$accent-text-hover: #05509a;
+$success: #70b11a;
+$warning: #f08609;
+$warning-bg: #fdefdf;
+$danger: #c1272d;
+$danger-bg: #f4d0c0;
+$backdrop: #e7e7ef80;
+$banner: rgba(85, 96, 185, 0.06);
+$floating-backdrop: rgba(255, 255, 255, 0.6);
+$background-color: #d3d3d3;
+
+$psw-c-t-primary: #000;
+$psw-c-t-secondary: #6b6b6b;
+$psw-c-t-accent: #0068bd;
+$psw-c-t-ps-plus: #000;
+$psw-c-t-success: #007a62;
+$psw-c-t-error: #c81b3a;
+$psw-c-t-disabled: #d2d4d9;
+$psw-c-t-placeholder: rgba(0, 0, 0, 0.6);
+$psw-c-t-accent-hover: #004c8a;
+$psw-c-t-accent-focus: #004c8a;
+$psw-c-t-accent-pressed: #003057;
+
+
+$psw-primary-button_disabled: rgba(44, 45, 51, .6);
+$scrollbar-color: #f6f7fb;
+$field-input: rgba(0, 0, 0, 0.06);
+$field-active: rgba(0,0,0,.16);
+
+.psw-c-t-accent {
+    color: $psw-c-t-accent;
+    fill: $psw-c-t-accent;
+    color: var(--psw-c-t-accent);
+    fill: var(--psw-c-t-accent);
+}
